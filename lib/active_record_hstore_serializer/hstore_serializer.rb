@@ -6,10 +6,7 @@ class HstoreSerializer
   end
 
   def self.dump(text)
+    return nil if text.nil?
     text.to_hstore
   end
 end
-
-
-
-
